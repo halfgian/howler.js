@@ -42,7 +42,7 @@
       self._howls = [];
       self._muted = false;
       self._volume = 1;
-      self._canPlayEvent = 'canplaythrough';
+      self._canPlayEvent = 'canplay';
       self._navigator = (typeof window !== 'undefined' && window.navigator) ? window.navigator : null;
 
       // Public properties.
